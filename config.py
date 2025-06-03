@@ -23,7 +23,7 @@ class Config(object):
     DUMP_CHANNEL = int(os.environ.get("DUMP_CHANNEL", "-1002037205021"))
     
     # wes response configuration     
-    WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
+    WEBHOOK = bool(os.environ.get("WEBHOOK", "False"))
 
 
 class Txt(object):
