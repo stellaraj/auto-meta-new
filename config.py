@@ -7,7 +7,7 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "28542813")
     API_HASH  = os.environ.get("API_HASH", "02ce7c339f7776844ff4ab03da338ccd")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6413115065:AAGAIXWmI00Zf_-7GVKASEQL0B5BIaWMJCU") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7513106327:AAFiNr0T6wloj68BbjHjuJ0oWqO7j7_wcvQ") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","autorename")     
@@ -17,7 +17,7 @@ class Config(object):
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/29a3acbbab9de5f45a5fe.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5050588448 730412993').split()]
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5050588448 730412993 6145988808 730412993').split()]
     FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'codeflix_bots').split(',')
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002037205021"))
     DUMP_CHANNEL = int(os.environ.get("DUMP_CHANNEL", "-1002037205021"))
